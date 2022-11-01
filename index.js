@@ -35,6 +35,8 @@ button.addEventListener('click', () => {
 
   colorContainer.style.background = randomColor
 
+  button.style.background = randomColor
+
   const h1 = document.createElement('h1')
   colorContainer.innerHTML = ''
   colorContainer.appendChild(h1)
