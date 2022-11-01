@@ -34,7 +34,6 @@ button.addEventListener('click', () => {
   let randomColor = colors[Math.floor(Math.random() * colors.length)]
 
   colorContainer.style.background = randomColor
-
   button.style.background = randomColor
 
   const h1 = document.createElement('h1')
