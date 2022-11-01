@@ -36,11 +36,10 @@ button.addEventListener('click', () => {
   colorContainer.style.background = randomColor
 
   const h1 = document.createElement('h1')
+  colorContainer.innerHTML = ''
   colorContainer.appendChild(h1)
 
   const colorText =
     randomColor.charAt(0).toUpperCase() + randomColor.substring(1)
   h1.textContent = colorText
 })
-
-//Must fix so only the latest value render at h1
